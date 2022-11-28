@@ -1,0 +1,26 @@
+/*
+Element Selector
+Class Selector
+ID Selector
+*/
+img.profilePicture {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  height: auto;
+  max-width: 20%;
+}
+
+div.Introduction {
+  text-align: center;
+}
+h1.myName {
+  font: 50px Arial, sans-serif;
+}
+h4.myDesignation {
+  font: 15px Arial, sans-serif;
+}
+p.myQuote {
+  font: 12px Arial, sans-serif;
+}
