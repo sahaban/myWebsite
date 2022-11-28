@@ -13,13 +13,17 @@ img.profilePicture {
 }
 
 div.Introduction {
+  background-image: url(https://scontent.fpnq8-1.fna.fbcdn.net/v/t39.30808-6/314895473_2716708015125854_847197463191658317_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=e3f864&_nc_ohc=BNjAnUprew0AX9eiAwo&tn=8v4ARtxpNTJnLVI5&_nc_ht=scontent.fpnq8-1.fna&oh=00_AfD7KgXnalE2Ad3E0agEArEevA8pcAR9QrTeNBztGM8hlQ&oe=6389B5D3);
+  background-position: center;
   text-align: center;
 }
 h1.myName {
   font: 50px Arial, sans-serif;
+  color: white;
 }
 h4.myDesignation {
   font: 15px Arial, sans-serif;
+  color: white;
 }
 p.myQuote {
   font: 12px Arial, sans-serif;
