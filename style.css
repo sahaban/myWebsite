@@ -24,3 +24,7 @@ h4.myDesignation {
 p.myQuote {
   font: 12px Arial, sans-serif;
 }
+
+div.Links {
+  text-align: center;
+}
