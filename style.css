@@ -1,0 +1,76 @@
+/*
+Element Selector
+Class Selector
+ID Selector
+*/
+body {
+  background-color: #000000;
+}
+
+
+img.profilePicture {
+  /*padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;*/
+  display: block;
+  margin-left: 40px;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
+  border: 3px solid white;
+}
+
+.coverFlex {
+  display: flex; /*This is to define the container as a flexbox*/
+  border: 3px solid white;
+  width: 100%;
+  height: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-image: url(https://images.unsplash.com/photo-1669718079210-3437af733f64?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2115&q=80);
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+  background-color: white;
+  border-radius: 10px;
+  flex-direction: column;
+}
+
+.coverFlexContainer {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1 1 0;
+}
+
+.nameAndDetails {
+  display: inline-block;
+  padding: 15px;
+  max-width: 60%;
+  margin-right: -10px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  align-items: left;
+}
+
+.myName {
+  font: 20px Arial, sans-serif;
+  color: white;
+  text-shadow: 2px 2px 4px #000000; /*White font with shadow*/
+}
+.myDesignation {
+  font: 15px Arial, sans-serif;
+  color: white;
+  text-shadow: 2px 2px 4px #000000; /*White font with shadow*/
+}
+
+div.Links {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin: 10px;
+  padding: 10px;
+}
